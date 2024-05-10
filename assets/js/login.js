@@ -10,7 +10,7 @@ loginUserForm.addEventListener("submit", e => {
 
   if (userName != "" && senha == "2678") { // Verifica se a senha inserida é igual à senha válida
     alert(`Seja Bem-Vindo ${userName}`);
-    window.location.href = "button.html";
+    window.location.href = "entrada.html";
   } else {
     alert("Usuário, login ou senha incorreto !");
   }

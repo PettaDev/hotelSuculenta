@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="cabecalho">
+    <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item" href="diaria.html">Diária</a>
+        <a class="cabecalho-menu-item" href="quarto.html"">Quartos</a>
+        <a class="cabecalho-menu-item" href="cadastroHospede.html">Cadastro</a>
+        <a class="cabecalho-menu-item" href="eventos.html">Eventos</a>
+        <a class="cabecalho-menu-item" href=".html">Combustível</a>
+        <a class="cabecalho-menu-item" href=".html">Ar Condicionado</a>
+        <a class="cabecalho-menu-item" href="index.html">SAIR</a>
+    </nav>
+  </header>
+
+<main class="main">
+
+  <div class="container">
+      <div class="header">
+      <h2 align="center">Eventos</h2>
+  </div>
+  
+  <form class="form" id="form">
+      <div class="form-control">
+      <label for="userName">Nome</label>
+      <input type="text" id="nome" placeholder="Qual seu nome?"/>
+    </div>
+
+    <div class="form-control">
+      <label for="senha">Quarto</label>
+      <input type="number" id="quarto" placeholder="Escolha o quarto que deseja colocar"/>
+    </div>
+
+    <button type="submit">Reservar</button>
+
+  </form>
+  </div>
+</main>
+        <!-- 
+            Quantidade de Convidados? -> seleciona um auditório coerente a quantidade de convidados
+            Nome da Empresa?
+            Dia e Hora: Segunda, 13H às 21h.
+            Duração do evento?
+            Quantidade de garçons?
+            Custo do garçons?
+            Custo do Buffet?
+        -->
+      <script src="assets/js/evento.js"></script>
+</body>
+</html>

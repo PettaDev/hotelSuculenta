@@ -1,45 +1,3 @@
-/* Parte 1
-
-    Exemplo 1:
-    Programa pergunta   =>  "Qual o valor padrão da diária?"
-    Resposta do usuário =>  -12
-    Programa exibe         =>   “Valor inválido, {Nome}”
-
-    Exemplo 2:
-    Programa pergunta   =>  "Qual o valor padrão da diária?"
-    Resposta do usuário =>   55.0
-    Programa pergunta   =>  "Quantas diárias serão necessárias?"
-    Resposta do usuário =>  10
-    Programa exibe         =>  "O valor de 10 dias de hospedagem é de R$550.0"
-    Programa pergunta   =>  "Qual o nome do hóspede?"
-    Resposta do usuário =>  Carlos Moreira
-    Programa pergunta   =>  "Qual o quarto para reserva? (1 - 20)?"
-    Resposta do usuário =>  7
-    Programa exibe         =>  "Quarto Livre."
-    Programa pergunta   =>  "{Nome}, você confirma a hospedagem para Carlos Moreira por 10 dias para o quarto 7 por R$550.0? S/N"
-    Resposta do usuário =>  S
-    Programa exibe         =>  "{Nome}, reserva efetuada para Carlos Moreira."
-
-    Exemplo 3:
-    Programa pergunta   =>  "Qual o valor padrão da diária?"
-    Resposta do usuário =>  55.0
-    Programa pergunta   =>  "Quantas diárias serão necessárias?"
-    Resposta do usuário =>  10
-    Programa exibe         =>  "O valor de 10 dias de hospedagem é de R$550.0"
-    Programa pergunta   =>  "Qual o nome do hóspede?"
-    Resposta do usuário =>  Carlos Moreira
-    Programa pergunta   =>  "Qual o quarto para reserva? (1 - 20)?"
-    Resposta do usuário =>  2
-    Programa exibe         =>  "Quarto está ocupado. Escolha outro."
-    Programa pergunta   =>  "Qual o quarto para reserva? (1 - 20)?"
-    Resposta do usuário =>  7
-    Programa exibe         =>  "Quarto Livre."
-    Programa pergunta   =>  "{Nome}, você confirma a hospedagem para Carlos Moreira por 10 dias para o quarto 7 por R$550.0 ? S/N"
-    Resposta do usuário =>  S
-    Programa exibe         =>  "{Nome}, reserva efetuada para Carlos Moreira.."
-
-*/
-
 /* Parte 2
 
     Exemplo:
@@ -103,6 +61,16 @@
     Programa pergunta  => "Selecione uma opção: 1. Cadastrar - 2. Pesquisar - 3. Sair"
 
 */
+
+Quantidade de Convidados? -> seleciona um auditório coerente a quantidade de convidados
+Nome da Empresa?
+Dia e Hora: Segunda, 13H às 21h.
+Duração do evento?
+Quantidade de garçons?
+Custo do garçons?
+Custo do Buffet?
+
+Conferência -> quanto que ficou tudo (alert)
 
 /* Parte 4
     Exemplo completo

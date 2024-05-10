@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="cabecalho">
+    <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item" href="diaria.html">Diária</a>
+        <a class="cabecalho-menu-item" href="quarto.html"">Quartos</a>
+        <a class="cabecalho-menu-item" href="cadastroHospede.html">Cadastro</a>
+        <a class="cabecalho-menu-item" href="eventos.html">Eventos</a>
+        <a class="cabecalho-menu-item" href=".html">Combustível</a>
+        <a class="cabecalho-menu-item" href=".html">Ar Condicionado</a>
+        <a class="cabecalho-menu-item" href="index.html">SAIR</a>
+    </nav>
+  </header>
+
+<main class="main">
+
+  <div class="container-cad">
+      <div class="header">
+      <h2 align="center">Cadastrar Hospedes</h2>
+  </div>
+  
+  <form class="form" id="form">
+      <div class="form-control">
+      <label for="userName">Diaria</label>
+      <input type="number" id="diarHos" placeholder="Qual o valor da diária?"/>
+    </div>
+
+    <div class="form-control">
+      <label for="senha">Nome</label>
+      <input type="text" id="nomeHos" placeholder="Qual o nome do hospede?"/>
+    </div>
+
+    <div class="form-control">
+        <label for="senha">Idade</label>
+        <input type="number" id="idadeHos" placeholder="Qual a idade do hospede?"/>
+      </div>
+
+    <button type="submit">Adicionar</button>
+    <button class="parar" type="submit">PARE</button>
+
+  </form>
+  </div>
+</main>
+
+      <script src="assets/js/evento.js"></script>
+</body>
+</html>
