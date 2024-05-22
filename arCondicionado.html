@@ -29,38 +29,39 @@
 
   <div class="container">
       <div class="header">
-      <h2 align="center">Eventos</h2>
+      <h2 align="center">Ar Condicionado</h2>
   </div>
   
   <form class="form" id="form">
     <div class="form-control">
-      <label for="userName">Quantidade de Convidados</label>
-      <input type="number" id="qtdEvent" placeholder="0"/>
+      <label for="userName">Empresa</label>
+      <input type="text" id="qtdEvent" placeholder="Qual o nome da empresa?"/>
     </div>
 
     <div class="form-control">
-      <label for="senha">Dia do evento</label>
+      <label for="senha">Valor do aparelho</label>
 
-      <input type="date" id="dateEvent"/>
+      <input type="number" id="dateEvent" placeholder="0"/>
     </div>
 
     <div class="form-control">
-      <label for="userName">Hora do evento</label>
-      <input type="number" id="hourEvent" placeholder="Auditório disponível das 7hs às 23hs!"/>
+      <label for="userName">Quantidade de aparelhos</label>
+      <input type="number" id="hourEvent" placeholder="0"/>
     </div>
 
     <div class="form-control">
-      <label for="userName">Nome da empresa</label>
-      <input type="text" id="nameEvent" placeholder="Coca-Cola"/>
+      <label for="userName">Porcentagem de desconto</label>
+      <input type="number" id="nameEvent" placeholder="0"/>
     </div>
 
     <div class="form-control">
-      <label for="userName">Duração do evento</label>
-      <input type="number" id="tempEvent" placeholder="Coloque a duração em horas do evento!"/>
+      <label for="userName">Mínimo de aparelhos para o desconto</label>
+      <input type="number" id="tempEvent" placeholder="0"/>
     </div>
 
 
-    <button type="submit">Reservar</button>
+    <button type="submit">Adicionar</button>
+    <button type="submit">Calcular</button>
 
   </form>
   </div>
@@ -74,6 +75,6 @@
             Custo do garçons?
             Custo do Buffet?
         -->
-      <script src="assets/js/evento.js"></script>
+      <script src="assets/js/arCondicionado.js"></script>
 </body>
 </html>

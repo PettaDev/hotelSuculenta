@@ -29,38 +29,34 @@
 
   <div class="container">
       <div class="header">
-      <h2 align="center">Eventos</h2>
+      <h2 align="center">Combustível</h2>
   </div>
   
   <form class="form" id="form">
+
     <div class="form-control">
-      <label for="userName">Quantidade de Convidados</label>
-      <input type="number" id="qtdEvent" placeholder="0"/>
+      <label for="senha">Valor do álcool no posto Wayne Oil?</label>
+
+      <input type="number" id="wayneAlcComb" placeholder="0"/>
     </div>
 
     <div class="form-control">
-      <label for="senha">Dia do evento</label>
-
-      <input type="date" id="dateEvent"/>
+      <label for="userName">Valor da gasolina no posto Wayne Oil?</label>
+      <input type="number" id="wayneGasComb" placeholder="0"/>
     </div>
 
     <div class="form-control">
-      <label for="userName">Hora do evento</label>
-      <input type="number" id="hourEvent" placeholder="Auditório disponível das 7hs às 23hs!"/>
+      <label for="userName">Valor do álcool no posto Stark Petrol?</label>
+      <input type="number" id="starkAlcComb" placeholder="0"/>
     </div>
 
     <div class="form-control">
-      <label for="userName">Nome da empresa</label>
-      <input type="text" id="nameEvent" placeholder="Coca-Cola"/>
-    </div>
-
-    <div class="form-control">
-      <label for="userName">Duração do evento</label>
-      <input type="number" id="tempEvent" placeholder="Coloque a duração em horas do evento!"/>
+      <label for="userName">Valor da gasolina no posto Stark Petrol?</label>
+      <input type="number" id="starkGasComb" placeholder="0"/>
     </div>
 
 
-    <button type="submit">Reservar</button>
+    <button type="submit">Calcular</button>
 
   </form>
   </div>
@@ -74,6 +70,6 @@
             Custo do garçons?
             Custo do Buffet?
         -->
-      <script src="assets/js/evento.js"></script>
+      <script src="assets/js/combustivel.js"></script>
 </body>
 </html>
